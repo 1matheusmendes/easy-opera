@@ -3,6 +3,7 @@ import time
 
 gpio.setmode(gpio.BOARD)
 
+GPIO.setwarnings(False)
 gpio.setup(11, gpio.OUT)
 
 while True:
